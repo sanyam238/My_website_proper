@@ -4,11 +4,13 @@ body {
     background: linear-gradient(#acffa1 0%,#00e6cb 100%);
 }
 
-img {
+#about img {
     height: 300px;
     border-style: inset;
     border-width: 5px;
-    transition: transform .2s
+    transition: transform .2s;
+    margin-top: 100px;
+        
 }
 
 img:hover {
@@ -34,11 +36,6 @@ h4 {
     margin: 10px auto;
 }
 
-.section {
-    padding: 100px;
-    text-align: center;
-    font-size: 30px;
-}
 
 p {
     text-align: center;
@@ -90,5 +87,7 @@ html {
     background-color: #ffbf00;
     width: 100%;
 }
+
+
 
 
